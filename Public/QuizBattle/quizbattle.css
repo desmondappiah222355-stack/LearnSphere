@@ -1,0 +1,59 @@
+.body {
+    background-color: #B9DDF8;
+}
+
+.subject-card {
+    cursor: pointer;
+    border: 1px solid #1E40AF;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7fc3f4;
+    transition: 0.5s;
+}
+.subject-card:hover {
+    transform: scale(1.05);
+}
+
+.subject-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    border: 1px solid #1E40AF;
+    background-color: #7fc3f4;
+    padding: 10px;
+    border-radius: 15px;
+}
+.option-btn {
+    background-color: #8BC5F4;
+    border: 1px solid #1E40AF;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.option-btn:hover {
+    transform: scale(1.05);
+}
+
+#next-btn {
+    background-color: #8BC5F4;
+    border: 1px solid #1E40AF;
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#next-btn:hover {
+    transform: scale(1.05);
+}
+.option-btn.selected {
+    background-color: #1E40AF;
+    color: #B9DDF8;
+}

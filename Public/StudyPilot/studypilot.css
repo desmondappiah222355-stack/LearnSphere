@@ -1,0 +1,17 @@
+.body {
+    background-color: #B9DDF8;
+
+}
+.study-header {
+    background-color: #8BC5F4;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #1E40AF;
+}
+
+.study-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

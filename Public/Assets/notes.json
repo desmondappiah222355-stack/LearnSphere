@@ -1,0 +1,296 @@
+{
+    "Mathematics": {
+        "Algebra": {
+            "title": "Introduction to Algebra",
+            "introduction": "Algebra is a branch of mathematics that uses letters and symbols to represent numbers and unknown quantities. It helps us describe relationships and solve problems.",
+            "keyConcepts": [
+                "A variable is a letter or symbol that represents an unknown or changing value, such as x.",
+                "A constant is a fixed number, such as 5 or 12.",
+                "A coefficient is the number multiplying a variable. In 4x, the coefficient is 4.",
+                "An algebraic expression contains numbers, variables and operations, but has no equality sign.",
+                "An equation states that two expressions are equal.",
+                "Like terms have the same variable raised to the same power and can be combined."
+            ],
+            "example": {
+                "question": "Solve the equation: 3x + 5 = 20.",
+                "solution": "Subtract 5 from both sides: 3x = 15. Divide both sides by 3 to isolate x.",
+                "answer": "x = 5"
+            },
+            "summary": "Algebra uses symbols to represent quantities. To solve a simple equation, use inverse operations on both sides to isolate the variable while keeping the equality balanced."
+        },
+        "Trigonometry": {
+            "title": "Introduction to Trigonometry",
+            "introduction": "Trigonometry studies relationships between the angles and sides of triangles. In right-angled triangles, the sine, cosine and tangent ratios connect an angle to the lengths of its sides.",
+            "keyConcepts": [
+                "A right-angled triangle contains one angle of 90 degrees.",
+                "The hypotenuse is the side opposite the right angle and is the longest side.",
+                "Relative to a chosen acute angle, the opposite side is across from the angle and the adjacent side is next to it.",
+                "Sine: sin(theta) = opposite / hypotenuse.",
+                "Cosine: cos(theta) = adjacent / hypotenuse.",
+                "Tangent: tan(theta) = opposite / adjacent.",
+                "The mnemonic SOH-CAH-TOA helps recall the three ratios."
+            ],
+            "example": {
+                "question": "A right-angled triangle has an angle of 30 degrees and a hypotenuse of 10 cm. Find the length of the side opposite the angle.",
+                "solution": "Use sine: sin(30 degrees) = opposite / 10. Since sin(30 degrees) = 0.5, the opposite side = 10 x 0.5.",
+                "answer": "The opposite side is 5 cm."
+            },
+            "summary": "Trigonometric ratios are used to find unknown sides or angles in right-angled triangles. Identify the sides relative to the given angle, then choose sine, cosine or tangent."
+        },
+        "Geometry": {
+            "title": "Introduction to Geometry",
+            "introduction": "Geometry is the branch of mathematics concerned with shapes, sizes, positions and properties of space. It includes plane shapes such as triangles and circles, as well as solid objects.",
+            "keyConcepts": [
+                "A point indicates an exact position and has no dimensions.",
+                "A line extends endlessly in both directions; a line segment has two endpoints.",
+                "An angle is formed when two rays meet at a common endpoint.",
+                "The angles in a triangle add up to 180 degrees.",
+                "The perimeter of a plane shape is the total distance around its boundary.",
+                "The area of a rectangle is length multiplied by width.",
+                "The area of a triangle is one-half multiplied by base and perpendicular height."
+            ],
+            "example": {
+                "question": "A rectangle is 8 cm long and 5 cm wide. Find its perimeter and area.",
+                "solution": "Perimeter = 2 x (length + width) = 2 x (8 + 5). Area = length x width = 8 x 5.",
+                "answer": "Perimeter = 26 cm; area = 40 cm squared."
+            },
+            "summary": "Geometry helps us describe and measure shapes. Remember to use the correct formula and include the appropriate units, such as cm for length and cm squared for area."
+        }
+    },
+    "Physics": {
+        "Motion": {
+            "title": "Introduction to Motion",
+            "introduction": "Motion is the change in the position of an object with time, relative to a reference point. We describe motion using quantities such as distance, displacement, speed, velocity and acceleration.",
+            "keyConcepts": [
+                "Distance is the total length of the path travelled. It is a scalar quantity and is measured in metres (m).",
+                "Displacement is the straight-line change in position in a specified direction. It is a vector quantity.",
+                "Average speed = total distance travelled / total time taken.",
+                "Average velocity = displacement / time taken.",
+                "Acceleration is the rate of change of velocity with time. Its SI unit is metres per second squared (m/s squared).",
+                "An object has uniform velocity when its speed and direction remain constant.",
+                "A reference point is a position used to decide whether an object has changed location."
+            ],
+            "example": {
+                "question": "A student walks 120 metres in 30 seconds at a steady pace. Calculate the student's average speed.",
+                "solution": "Average speed = distance / time = 120 m / 30 s.",
+                "answer": "Average speed = 4 m/s."
+            },
+            "summary": "Motion describes a change in position over time. Distance and speed are scalars, while displacement and velocity include direction. Acceleration describes how quickly velocity changes."
+        },
+        "Forces": {
+            "title": "Introduction to Forces",
+            "introduction": "A force is a push or pull that can change an object's motion, direction or shape. Forces are vector quantities, so they have both magnitude and direction.",
+            "keyConcepts": [
+                "The SI unit of force is the newton (N).",
+                "A balanced set of forces has zero resultant force and does not cause a change in an object's velocity.",
+                "An unbalanced resultant force causes an object to accelerate.",
+                "Newton's First Law states that an object remains at rest or moves at constant velocity unless acted on by a resultant external force.",
+                "Newton's Second Law is expressed as resultant force = mass x acceleration (F = ma).",
+                "Newton's Third Law states that when one object exerts a force on another, the second exerts an equal-sized force in the opposite direction on the first.",
+                "Friction opposes relative motion between surfaces in contact."
+            ],
+            "example": {
+                "question": "A resultant force of 12 N acts on a 3 kg object. Calculate its acceleration.",
+                "solution": "Using F = ma, rearrange to a = F / m. Therefore a = 12 N / 3 kg.",
+                "answer": "Acceleration = 4 m/s squared."
+            },
+            "summary": "Forces can change motion or shape. The effect of a resultant force depends on its size, direction and the mass of the object. Newton's laws describe important relationships between forces and motion."
+        },
+        "Energy": {
+            "title": "Introduction to Energy",
+            "introduction": "Energy is the capacity to do work or cause change. It exists in different forms and can be transferred from one object or system to another.",
+            "keyConcepts": [
+                "The SI unit of energy is the joule (J).",
+                "Kinetic energy is the energy an object has because it is moving.",
+                "Gravitational potential energy is energy stored because of an object's position in a gravitational field.",
+                "Thermal energy is associated with the random motion and interactions of particles.",
+                "Chemical energy is stored in substances such as food, fuels and batteries.",
+                "The principle of conservation of energy states that energy cannot be created or destroyed; it is transferred or transformed.",
+                "Power is the rate at which energy is transferred or work is done. Its SI unit is the watt (W)."
+            ],
+            "example": {
+                "question": "A machine transfers 600 joules of energy in 20 seconds. Calculate its average power.",
+                "solution": "Power = energy transferred / time taken = 600 J / 20 s.",
+                "answer": "Average power = 30 W."
+            },
+            "summary": "Energy occurs in many forms and is transferred during changes. Total energy is conserved, although some energy may become less useful, for example when dissipated to the surroundings as thermal energy."
+        }
+    },
+    "Chemistry": {
+        "Atomic Structure": {
+            "title": "Introduction to Atomic Structure",
+            "introduction": "All ordinary matter is made from atoms. An atom has a small, dense nucleus containing protons and neutrons, with electrons occupying regions around the nucleus.",
+            "keyConcepts": [
+                "A proton has a positive charge and is found in the nucleus.",
+                "A neutron has no electric charge and is found in the nucleus.",
+                "An electron has a negative charge and occupies the space around the nucleus.",
+                "The atomic number is the number of protons in an atom. It identifies the element.",
+                "The mass number is the total number of protons and neutrons in the nucleus.",
+                "In a neutral atom, the number of electrons equals the number of protons.",
+                "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons."
+            ],
+            "example": {
+                "question": "A neutral atom has atomic number 11 and mass number 23. How many protons, electrons and neutrons does it have?",
+                "solution": "Protons = atomic number = 11. A neutral atom has the same number of electrons as protons, so electrons = 11. Neutrons = mass number - atomic number = 23 - 11.",
+                "answer": "11 protons, 11 electrons and 12 neutrons."
+            },
+            "summary": "Atoms contain protons, neutrons and electrons. The number of protons determines the element, while the mass number counts protons and neutrons together."
+        },
+        "Bonding": {
+            "title": "Introduction to Chemical Bonding",
+            "introduction": "Chemical bonding explains how atoms join together to form molecules and compounds. Atoms bond through interactions involving their outer-shell electrons, producing more stable arrangements.",
+            "keyConcepts": [
+                "Ionic bonding involves the transfer of electrons, usually from a metal atom to a non-metal atom, forming oppositely charged ions that attract.",
+                "Covalent bonding involves atoms sharing pairs of electrons, commonly between non-metals.",
+                "A metallic bond is the attraction between positive metal ions and delocalised electrons.",
+                "An ion is an atom or group of atoms with an overall electric charge.",
+                "A cation is a positively charged ion; an anion is a negatively charged ion.",
+                "The properties of a substance, such as melting point and electrical conductivity, are influenced by its bonding and structure."
+            ],
+            "example": {
+                "question": "Explain how sodium and chlorine form sodium chloride (NaCl).",
+                "solution": "A sodium atom transfers one outer electron to a chlorine atom. Sodium becomes a positively charged Na+ ion, while chlorine becomes a negatively charged Cl- ion. The oppositely charged ions attract each other.",
+                "answer": "Sodium chloride forms through ionic bonding between Na+ and Cl- ions."
+            },
+            "summary": "The main types of chemical bonding include ionic, covalent and metallic bonding. They differ in how electrons are transferred, shared or delocalised, and these differences help explain material properties."
+        },
+        "Acids and Bases": {
+            "title": "Introduction to Acids and Bases",
+            "introduction": "Acids and bases are important groups of substances with characteristic chemical properties. They can be identified using indicators and can react with each other in neutralisation reactions.",
+            "keyConcepts": [
+                "In aqueous solution, an acid produces hydrogen ions (H+).",
+                "A base neutralises an acid; a soluble base is called an alkali.",
+                "Alkalis produce hydroxide ions (OH-) in aqueous solution.",
+                "The pH scale commonly runs from 0 to 14: values below 7 are acidic, 7 is neutral and values above 7 are alkaline at room temperature.",
+                "Litmus turns red in acidic solutions and blue in alkaline solutions.",
+                "Neutralisation is the reaction between an acid and a base to form a salt and water.",
+                "The general ionic equation for neutralisation is H+ + OH- -> H2O."
+            ],
+            "example": {
+                "question": "What products are formed when hydrochloric acid reacts completely with sodium hydroxide?",
+                "solution": "This is a neutralisation reaction: hydrochloric acid + sodium hydroxide -> sodium chloride + water. The salt is formed from the metal ion and the acid's negative ion.",
+                "answer": "Sodium chloride and water are formed."
+            },
+            "summary": "Acids and alkalis can be tested with indicators and described using the pH scale. When an acid reacts with a base, neutralisation produces a salt and water."
+        }
+    },
+    "Biology": {
+        "Cells": {
+            "title": "Introduction to Cells",
+            "introduction": "The cell is the basic structural and functional unit of life. Living organisms may consist of one cell or many cells, and different cell structures carry out different functions.",
+            "keyConcepts": [
+                "The cell membrane controls the movement of substances into and out of the cell.",
+                "The cytoplasm is where many chemical reactions take place.",
+                "The nucleus contains genetic material and helps control cell activities in many cells.",
+                "Mitochondria are the main site of aerobic respiration, which releases energy for cell activities.",
+                "Plant cells have a cellulose cell wall that supports and strengthens the cell.",
+                "Chloroplasts contain chlorophyll and are the site of photosynthesis in green plant cells.",
+                "A large permanent vacuole in many plant cells contains cell sap and helps maintain support."
+            ],
+            "example": {
+                "question": "A student observes a cell with a cell wall, chloroplasts and a large permanent vacuole. Is it most likely a plant or animal cell? Give a reason.",
+                "solution": "These structures are characteristic features of many plant cells. Animal cells do not have a cellulose cell wall or chloroplasts.",
+                "answer": "It is a plant cell because it has a cell wall, chloroplasts and a large permanent vacuole."
+            },
+            "summary": "Cells are the basic units of life. Their structures are adapted to their functions, and plant cells have additional structures such as a cell wall and chloroplasts."
+        },
+        "Nutrition": {
+            "title": "Introduction to Nutrition",
+            "introduction": "Nutrition is the process by which organisms obtain and use food or nutrients for energy, growth, repair and healthy functioning. Humans need a balanced diet containing different nutrients.",
+            "keyConcepts": [
+                "Carbohydrates are an important source of energy.",
+                "Proteins are needed for growth and repair of body tissues.",
+                "Fats provide energy, help insulate the body and form part of cell membranes.",
+                "Vitamins and minerals are needed in small amounts for normal body processes.",
+                "Fibre supports healthy movement of food through the digestive system.",
+                "Water is needed for transport, chemical reactions and temperature regulation.",
+                "A balanced diet provides appropriate amounts of the nutrients and energy a person needs."
+            ],
+            "example": {
+                "question": "A meal contains rice, beans, vegetables and water. Identify two nutrients supplied by this meal and state one function of each.",
+                "solution": "Rice supplies carbohydrates, which provide energy. Beans supply protein, which supports growth and tissue repair. Vegetables can supply vitamins, minerals and fibre.",
+                "answer": "Carbohydrates provide energy; proteins support growth and repair. The vegetables also contribute vitamins, minerals and fibre."
+            },
+            "summary": "A balanced diet contains a variety of nutrients. Each nutrient has important functions, and eating a varied diet helps support growth, energy needs and general health."
+        },
+        "Genetics": {
+            "title": "Introduction to Genetics",
+            "introduction": "Genetics is the study of heredity and variation. Heredity is the passing of characteristics from parents to offspring through genetic information.",
+            "keyConcepts": [
+                "DNA is the molecule that carries hereditary information in most organisms.",
+                "A gene is a section of DNA that contributes to a particular characteristic or biological function.",
+                "Chromosomes are structures made of DNA and proteins that carry genes.",
+                "Alleles are different versions of the same gene.",
+                "An organism's genotype is its genetic make-up for a particular gene or set of genes.",
+                "A phenotype is an observable characteristic resulting from the interaction of genotype and environment.",
+                "In a simple dominant-recessive pattern, a dominant allele can determine the phenotype when one copy is present; a recessive phenotype usually requires two recessive alleles."
+            ],
+            "example": {
+                "question": "In a simple inheritance example, T represents a dominant allele for tall plants and t represents a recessive allele for short plants. What is the phenotype of a plant with genotype Tt?",
+                "solution": "The plant has one dominant T allele and one recessive t allele. In this simple dominant-recessive example, the dominant allele determines the expressed characteristic.",
+                "answer": "The plant is tall."
+            },
+            "summary": "Genes and alleles carry inherited information. Genotype describes genetic make-up, while phenotype describes observable characteristics. Inheritance patterns explain some, but not all, variation among organisms."
+        }
+    },
+    "English": {
+        "Grammar": {
+            "title": "Introduction to English Grammar",
+            "introduction": "Grammar is the system of rules that helps us arrange words into clear and meaningful sentences. It includes parts of speech, sentence structure, tense and punctuation.",
+            "keyConcepts": [
+                "A noun names a person, place, thing or idea.",
+                "A pronoun takes the place of a noun, for example he, she, it or they.",
+                "A verb expresses an action or state of being.",
+                "An adjective describes a noun or pronoun.",
+                "An adverb modifies a verb, adjective or another adverb.",
+                "A preposition shows a relationship, often involving place, time or direction.",
+                "A conjunction connects words, phrases or clauses.",
+                "A complete sentence normally contains a subject and a verb and expresses a complete thought."
+            ],
+            "example": {
+                "question": "Identify the parts of speech of the words in this sentence: 'The diligent student answered quickly.'",
+                "solution": "'The' is a determiner, 'diligent' is an adjective, 'student' is a noun, 'answered' is a verb, and 'quickly' is an adverb.",
+                "answer": "The sentence contains a determiner, adjective, noun, verb and adverb."
+            },
+            "summary": "Grammar helps us communicate clearly. Understanding parts of speech and sentence structure makes speaking and writing more accurate and effective."
+        },
+        "Comprehension": {
+            "title": "Reading Comprehension Skills",
+            "introduction": "Reading comprehension is the ability to understand, interpret and respond to a written passage. It involves identifying information, recognising the writer's ideas and making reasonable inferences.",
+            "keyConcepts": [
+                "Skimming means reading quickly to understand the general idea of a passage.",
+                "Scanning means searching for a specific detail, such as a name, date or figure.",
+                "The main idea is the central point the passage communicates.",
+                "Supporting details explain or provide evidence for the main idea.",
+                "An inference is a conclusion drawn from clues in the passage and what the reader already knows.",
+                "Context clues are nearby words or sentences that help explain an unfamiliar word.",
+                "Answers should be based on evidence from the passage and should follow the wording and instructions of the question."
+            ],
+            "example": {
+                "question": "Read this sentence: 'Although the sky was cloudy, Ama carried her umbrella because the weather report predicted rain.' Why did Ama carry an umbrella?",
+                "solution": "Look for the stated reason in the sentence. It says the weather report predicted rain.",
+                "answer": "Ama carried an umbrella because the weather report predicted rain."
+            },
+            "summary": "Good comprehension involves reading carefully, identifying main ideas, locating supporting details and making inferences from evidence. Always answer the question asked and support your response with the passage."
+        },
+        "Summary Writing": {
+            "title": "Introduction to Summary Writing",
+            "introduction": "Summary writing is the skill of presenting the main ideas of a passage briefly and accurately in your own words. A good summary keeps essential information and leaves out unnecessary details.",
+            "keyConcepts": [
+                "Read the passage carefully to understand its overall meaning.",
+                "Identify the main points that directly answer the task.",
+                "Leave out examples, repetition, illustrations and minor details unless they are essential.",
+                "Use your own words while preserving the original meaning.",
+                "Write clearly and logically, using suitable linking words where needed.",
+                "Avoid adding personal opinions or information that is not in the passage.",
+                "Follow the required word limit and check grammar, spelling and punctuation."
+            ],
+            "example": {
+                "question": "Original ideas: 'Regular exercise strengthens the heart. It can improve sleep. It also helps people manage stress.' Write a concise summary.",
+                "solution": "Combine the three related benefits into one sentence without repeating the original wording.",
+                "answer": "Regular physical activity benefits health by supporting heart function, sleep and stress management."
+            },
+            "summary": "An effective summary is brief, accurate and written in your own words. It includes only the essential points, follows the task and avoids unnecessary details or personal opinions."
+        }
+    }
+}

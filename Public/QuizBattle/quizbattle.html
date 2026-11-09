@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizbattle</title>
+    <link rel="stylesheet" href="quizbattle.css">
+    <link rel="icon" href="../Assets/LS.png" type="image/x-icon">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>QuizBattle</h1>
+        <p>Test your knowledge, challenge yourself</p>
+    </header>
+<main>
+
+<section class="subject-selection">
+    <h2>Choose Your Subject</h2>
+
+    <div class="subject-container">
+
+        <div class="subject-card" data-subject="Mathematics">
+            <h3>Mathematics</h3>
+            <p>Challenge your problem-solving skills.</p>
+        </div>
+
+        <div class="subject-card" data-subject="Physics">
+            <h3>Physics</h3>
+            <p>Test your understanding of the physical world.</p>
+        </div>
+
+        <div class="subject-card" data-subject="Chemistry">
+            <h3>Chemistry</h3>
+            <p>Explore atoms, elements and reactions.</p>
+        </div>
+
+        <div class="subject-card" data-subject="Biology">
+            <h3>Biology</h3>
+            <p>Discover the science of life.</p>
+        </div>
+
+        <div class="subject-card" data-subject="English">
+            <h3>English</h3>
+            <p>Test your language skills.</p>
+        </div>
+
+    </div>
+</section>
+<section class="quiz-section" id="quiz-section" hidden>
+    <h2 id="quiz-heading"></h2>
+    <h2 id="score-display"></h2>
+
+    <div id="question-container"></div>
+
+    <button id="next-btn">Next Question</button>
+</section>
+
+</main>
+
+<script src="quizbattle.js"></script>
+</body>
+</html>

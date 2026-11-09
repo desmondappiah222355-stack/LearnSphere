@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartStudy</title>
+    <link rel="stylesheet" href="smartstudy.css">
+    <link rel="icon" href="../Assets/LS.png">
+</head>
+<body class="body">
+    <header class="header">
+        <h1>SmartStudy</h1>
+        <p>Your personal learning space</p>
+    </header>
+
+    <main>
+        <section class="subject">
+            <h2>Choose a subject</h2>
+            <div class="subject-container">
+                <div class="subject-card" data-subject="Mathematics">
+                    <h3>Mathematics</h3>
+                    <p>Explore mathematical problems</p>
+                </div>
+                <div class="subject-card" data-subject="Physics">
+                    <h3>Physics</h3>
+                    <p>Learn the laws  of the physical world</p>
+                </div>
+                <div class="subject-card" data-subject="Chemistry">
+                    <h3>Chemistry</h3>
+                    <p>Dive deeper into the world of atoms and elements</p>
+                </div>
+                <div class="subject-card" data-subject="Biology">
+                    <h3>Biology</h3>
+                    <p>Discover the world of living organisms and their life processes</p>
+                </div>
+                <div class="subject-card" data-subject="English">
+                    <h3>English</h3>
+                    <p>Improve your grammar and vocabulary</p>
+                </div>
+            </div>
+        </section>
+        <section class="topics" id="topics" hidden>
+        <h2 id="topic-heading">Choose a topic</h2>
+
+        <div class="topic-container" id="topic-container">
+        </div>
+    </section>
+    <section class="notes" id="notes" hidden>
+    <h2 id="notes-heading">Study Notes</h2>
+
+    <div id="notes-content">
+    </div>
+</section>
+    </main>
+
+
+</body>
+<script src="smartstudy.js"></script>
+</html>

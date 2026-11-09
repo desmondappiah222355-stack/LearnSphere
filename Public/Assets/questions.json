@@ -1,0 +1,263 @@
+
+{
+  "Mathematics": [
+    {
+      "question": "Solve for x: 4x - 8 = 20",
+      "options": ["5", "6", "7", "8"],
+      "answer": "7"
+    },
+    {
+      "question": "What is the square root of 225?",
+      "options": ["12", "13", "15", "25"],
+      "answer": "15"
+    },
+    {
+      "question": "Simplify: 3a + 5a - 2a",
+      "options": ["5a", "6a", "8a", "10a"],
+      "answer": "6a"
+    },
+    {
+      "question": "What is 25% of 240?",
+      "options": ["40", "50", "60", "80"],
+      "answer": "60"
+    },
+    {
+      "question": "Find the area of a triangle with base 12 cm and height 8 cm.",
+      "options": ["48 cm²", "60 cm²", "72 cm²", "96 cm²"],
+      "answer": "48 cm²"
+    },
+    {
+      "question": "Express 0.75 as a fraction in its simplest form.",
+      "options": ["1/2", "2/3", "3/4", "4/5"],
+      "answer": "3/4"
+    },
+    {
+      "question": "What is the value of 5² + 3²?",
+      "options": ["25", "30", "34", "64"],
+      "answer": "34"
+    },
+    {
+      "question": "Find the gradient of a line passing through (1, 2) and (3, 6).",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "question": "Solve: 2(x + 3) = 18",
+      "options": ["3", "6", "9", "12"],
+      "answer": "6"
+    },
+    {
+      "question": "What is the sum of the interior angles of a hexagon?",
+      "options": ["540°", "600°", "720°", "900°"],
+      "answer": "720°"
+    }
+  ],
+  "Physics": [
+    {
+      "question": "What is the SI unit of energy?",
+      "options": ["Newton", "Joule", "Watt", "Pascal"],
+      "answer": "Joule"
+    },
+    {
+      "question": "Which instrument measures electric current?",
+      "options": ["Voltmeter", "Ammeter", "Barometer", "Thermometer"],
+      "answer": "Ammeter"
+    },
+    {
+      "question": "What is the approximate acceleration due to gravity on Earth?",
+      "options": ["4.9 m/s²", "9.8 m/s²", "15 m/s²", "20 m/s²"],
+      "answer": "9.8 m/s²"
+    },
+    {
+      "question": "Which type of energy does a moving object possess?",
+      "options": ["Chemical energy", "Potential energy", "Kinetic energy", "Nuclear energy"],
+      "answer": "Kinetic energy"
+    },
+    {
+      "question": "What is the SI unit of electrical resistance?",
+      "options": ["Ampere", "Volt", "Ohm", "Coulomb"],
+      "answer": "Ohm"
+    },
+    {
+      "question": "Which law states that pressure in a confined fluid is transmitted equally in all directions?",
+      "options": ["Newton's law", "Pascal's principle", "Ohm's law", "Hooke's law"],
+      "answer": "Pascal's principle"
+    },
+    {
+      "question": "A force of 20 N acts on a mass of 5 kg. What is the acceleration?",
+      "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
+      "answer": "4 m/s²"
+    },
+    {
+      "question": "Which colour of visible light has the longest wavelength?",
+      "options": ["Violet", "Blue", "Green", "Red"],
+      "answer": "Red"
+    },
+    {
+      "question": "What happens to the resistance of a typical metallic conductor when its temperature increases?",
+      "options": ["It increases", "It decreases", "It becomes zero", "It remains constant"],
+      "answer": "It increases"
+    },
+    {
+      "question": "What is the frequency of a wave that completes 20 cycles in 4 seconds?",
+      "options": ["4 Hz", "5 Hz", "10 Hz", "80 Hz"],
+      "answer": "5 Hz"
+    }
+  ],
+  "Chemistry": [
+    {
+      "question": "What is the chemical symbol for sodium?",
+      "options": ["So", "S", "Na", "N"],
+      "answer": "Na"
+    },
+    {
+      "question": "What is the pH of a neutral solution at 25°C?",
+      "options": ["0", "5", "7", "14"],
+      "answer": "7"
+    },
+    {
+      "question": "Which gas is released when an acid reacts with a reactive metal?",
+      "options": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon dioxide"],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "options": ["4", "6", "8", "12"],
+      "answer": "6"
+    },
+    {
+      "question": "Which particle has a negative electrical charge?",
+      "options": ["Proton", "Neutron", "Electron", "Nucleus"],
+      "answer": "Electron"
+    },
+    {
+      "question": "What is the chemical formula of water?",
+      "options": ["CO₂", "H₂O", "O₂", "H₂O₂"],
+      "answer": "H₂O"
+    },
+    {
+      "question": "Which gas is commonly used in fire extinguishers?",
+      "options": ["Hydrogen", "Oxygen", "Carbon dioxide", "Chlorine"],
+      "answer": "Carbon dioxide"
+    },
+    {
+      "question": "What type of bond involves the sharing of electron pairs?",
+      "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+      "answer": "Covalent bond"
+    },
+    {
+      "question": "Which method is most suitable for separating an insoluble solid from a liquid?",
+      "options": ["Filtration", "Distillation", "Evaporation", "Chromatography"],
+      "answer": "Filtration"
+    },
+    {
+      "question": "What is the chemical formula of calcium carbonate?",
+      "options": ["CaCl₂", "CaO", "CaCO₃", "CaSO₄"],
+      "answer": "CaCO₃"
+    }
+  ],
+  "Biology": [
+    {
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": ["Nucleus", "Mitochondrion", "Ribosome", "Vacuole"],
+      "answer": "Mitochondrion"
+    },
+    {
+      "question": "What is the basic structural and functional unit of life?",
+      "options": ["Tissue", "Organ", "Cell", "Organ system"],
+      "answer": "Cell"
+    },
+    {
+      "question": "Which pigment absorbs light energy during photosynthesis?",
+      "options": ["Haemoglobin", "Chlorophyll", "Melanin", "Keratin"],
+      "answer": "Chlorophyll"
+    },
+    {
+      "question": "Which part of a plant absorbs most water from the soil?",
+      "options": ["Leaves", "Flowers", "Root hairs", "Stem"],
+      "answer": "Root hairs"
+    },
+    {
+      "question": "Which blood cells are primarily responsible for transporting oxygen?",
+      "options": ["White blood cells", "Red blood cells", "Platelets", "Plasma cells"],
+      "answer": "Red blood cells"
+    },
+    {
+      "question": "What is the process by which green plants make their own food?",
+      "options": ["Respiration", "Transpiration", "Photosynthesis", "Germination"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "question": "Which organ pumps blood around the human body?",
+      "options": ["Liver", "Lungs", "Heart", "Kidney"],
+      "answer": "Heart"
+    },
+    {
+      "question": "Which molecule carries genetic information in most living organisms?",
+      "options": ["ATP", "DNA", "Glucose", "Starch"],
+      "answer": "DNA"
+    },
+    {
+      "question": "What is the main function of the human kidneys?",
+      "options": ["Pump blood", "Filter blood and form urine", "Produce bile", "Digest proteins"],
+      "answer": "Filter blood and form urine"
+    },
+    {
+      "question": "Which ecological term describes all the populations of different species living in an area?",
+      "options": ["Habitat", "Community", "Ecosystem", "Biome"],
+      "answer": "Community"
+    }
+  ],
+  "English": [
+    {
+      "question": "Which word is a synonym for 'abundant'?",
+      "options": ["Scarce", "Plentiful", "Limited", "Rare"],
+      "answer": "Plentiful"
+    },
+    {
+      "question": "Identify the adjective in this sentence: 'The clever student solved the problem.'",
+      "options": ["Student", "Solved", "Clever", "Problem"],
+      "answer": "Clever"
+    },
+    {
+      "question": "What is the past tense of 'go'?",
+      "options": ["Goed", "Gone", "Went", "Going"],
+      "answer": "Went"
+    },
+    {
+      "question": "Which of these is a conjunction?",
+      "options": ["Quickly", "Although", "Beautiful", "Under"],
+      "answer": "Although"
+    },
+    {
+      "question": "Choose the correctly spelled word.",
+      "options": ["Accomodation", "Acommodation", "Accommodation", "Acomodation"],
+      "answer": "Accommodation"
+    },
+    {
+      "question": "What figure of speech is used in: 'The wind whispered through the trees'?",
+      "options": ["Simile", "Personification", "Hyperbole", "Irony"],
+      "answer": "Personification"
+    },
+    {
+      "question": "Which sentence is in the passive voice?",
+      "options": ["Ama baked the cake.", "The cake was baked by Ama.", "Ama is baking a cake.", "Ama will bake a cake."],
+      "answer": "The cake was baked by Ama."
+    },
+    {
+      "question": "What is the plural form of 'criterion'?",
+      "options": ["Criterions", "Criteria", "Criterias", "Criterion"],
+      "answer": "Criteria"
+    },
+    {
+      "question": "Which punctuation mark is used to show possession?",
+      "options": ["Comma", "Apostrophe", "Colon", "Semicolon"],
+      "answer": "Apostrophe"
+    },
+    {
+      "question": "Identify the adverb in this sentence: 'She sang beautifully.'",
+      "options": ["She", "Sang", "Beautifully", "None"],
+      "answer": "Beautifully"
+    }
+  ]
+}

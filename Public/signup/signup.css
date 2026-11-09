@@ -1,0 +1,43 @@
+.body{
+    background-color: #B9DDF8;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;      
+    margin: 0;
+}
+.signup-page {
+    background-color: #8BC5F4;
+    border: 1px solid #1E40AF;
+    border-radius: 15px;
+    padding: 10px;
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-page:hover {
+    border: 1px solid #7f9ee2;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+#signup-btn {
+     margin-left: 100px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+#signup-btn:hover {
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.image {
+    position: absolute;
+    top: 60px;
+    left: 1px;
+    height: auto;
+    width: 270px;
+}
