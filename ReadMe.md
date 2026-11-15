@@ -1,4 +1,4 @@
-# LearnSphere
+# LearnSphere v1.0.0
 
 **Learn. Explore. Achieve.**
 
