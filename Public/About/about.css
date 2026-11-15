@@ -1,0 +1,50 @@
+
+.body {
+    background-color: #B9DDF8;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.about-header {
+    background-color: #8BC5F4;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid #1E40AF;
+}
+
+.about-container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.about-card {
+    background-color: #8BC5F4;
+    border: 1px solid #1E40AF;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about-card h2 {
+    color: #1E40AF;
+}
+
+.about-card p {
+    line-height: 1.6;
+}
+
+#back-button {
+    background-color: #1E40AF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    opacity: 0.85;
+}
+

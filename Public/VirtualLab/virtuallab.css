@@ -1,0 +1,167 @@
+.body{
+    background-color: #B9DDF8;
+    min-height: 100vh;      
+    margin: 0;
+
+}
+.lab-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.experiment-card {
+    background-color: #8BC5F4;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.experiment-card button {
+    background-color: #1E40AF;
+    color: #B9DDF8;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.experiment-card button:hover {
+    transform: scale(1.05);
+}
+
+.lab-header {
+
+    border: 1px solid #1E40AF;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #7fc3f4;
+    width: 20%;
+}
+
+.projectile-lab {
+    background-color: #8BC5F4;
+    padding: 25px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.simulation-area {
+    position: relative;
+    height: 350px;
+    background-color: #B9DDF8;
+    border: 2px solid #1E40AF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.projectile-ball {
+    width: 20px;
+    height: 20px;
+    background-color: #1E40AF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #1E40AF;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    text-align: left;
+}
+
+.controls label {
+    font-weight: bold;
+    color: #1E40AF;
+}
+
+.controls input {
+    width: 100%;
+    cursor: pointer;
+}
+
+#launch-btn {
+    background-color: #1E40AF;
+    color: #B9DDF8;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#launch-btn:hover {
+    background-color: #16358f;
+    transform: translateY(-2px);
+}
+
+#launch-btn:active {
+    transform: scale(0.97);
+}
+
+#reset-btn {
+    background-color: #7fc3f4;
+    color: #1E40AF;
+    border: 2px solid #1E40AF;
+    padding: 11px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#reset-btn:hover {
+    background-color: #B9DDF8;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.result-card {
+    background-color: #B9DDF8;
+    border: 1px solid #1E40AF;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.result-card h3 {
+    color: #1E40AF;
+    font-size: 15px;
+}
+
+.result-card p {
+    color: #1E40AF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button {
+    color: white;
+    background-color: #1E40AF;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+}
